@@ -202,7 +202,7 @@ order by
 ```    
 
 ### Partition Columns:
-```
+```sql
 select
     *
 from
