@@ -112,7 +112,7 @@ where
     );
 ```    
 
-###Extended data types:
+### Extended data types:
 ```sql
 with cte as (
     select
