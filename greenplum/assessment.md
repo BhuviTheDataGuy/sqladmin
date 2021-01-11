@@ -230,6 +230,7 @@ ORDER  BY 1,
 SELECT ns.nspname  SCHEMA, 
        c.relname   AS Table, 
        ex.location AS path, 
+       -- ex.urilocation AS path, --> for latest versions 5.x+ 
        CASE 
          WHEN ex.fmttype = 't' THEN 'text' 
          WHEN ex.fmttype = 'c' THEN 'csv' 
